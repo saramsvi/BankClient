@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #D2B48C#D2B48C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin_Controllers.Clients_list_Controller">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="323.0" prefWidth="701.0" style="-fx-background-color: #FFFFFF#FFFFFF;">
+            <children>
+                <TableView fx:id="Clients_Table" layoutY="132.0" prefHeight="191.0" prefWidth="701.0">
+                    <columns>
+                        <TableColumn fx:id="fxid" prefWidth="18.628496885299683" text="id" />
+                        <TableColumn fx:id="fxusername" prefWidth="30.52793312072754" text="Username" />
+                  <TableColumn fx:id="fxname" prefWidth="58.58519744873047" text="Name" />
+                  <TableColumn fx:id="fxsurname" prefWidth="70.08521270751953" text="Surname" />
+                  <TableColumn fx:id="fxgender" prefWidth="57.1781005859375" text="Gender" />
+                  <TableColumn fx:id="fxpassport" prefWidth="85.58523559570312" text="Passport №" />
+                  <TableColumn fx:id="fxbirthday" prefWidth="59.770965576171875" text="Birthday" />
+                  <TableColumn fx:id="fxbirthplace" prefWidth="54.235565185546875" text="PlaceofBirth" />
+                  <TableColumn fx:id="fxphonenumb" prefWidth="95.26443481445312" text="Phone№" />
+                  <TableColumn fx:id="fxaddress" prefWidth="58.71368408203125" text="Address" />
+                  <TableColumn fx:id="fxpassword" prefWidth="60.4620361328125" text="Password" />
+                  <TableColumn fx:id="fxbalance" prefWidth="94.5379638671875" text="Balance" />
+                    </columns>
+                </TableView>
+            <TextField fx:id="searchbox" layoutX="186.0" layoutY="54.0" prefHeight="29.0" prefWidth="293.0" promptText="Поиск" />
+            </children></AnchorPane>
+        <Label contentDisplay="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="45.0" prefWidth="193.0" text="The Banksy Bank" textFill="WHITE">
+            <font>
+                <Font name="Kai Regular" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="BackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="112.0" text="Back">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>

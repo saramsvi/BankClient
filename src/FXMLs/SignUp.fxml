@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.CheckBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #D2B48C#D2B48C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.SignUpController">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="323.0" prefWidth="701.0" style="-fx-background-color: #FFFFFF#FFFFFF;">
+            <children>
+                <TextField fx:id="SignUp_Name" layoutX="14.0" layoutY="52.0" prefHeight="36.0" prefWidth="260.0" promptText="Имя" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+                    <font>
+                        <Font name="Times New Roman" size="17.0" />
+                    </font>
+                </TextField>
+            <TextField fx:id="SignUp_Surname" layoutX="14.0" layoutY="93.0" prefHeight="36.0" prefWidth="260.0" promptText="Фамилия" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="SignUp_Address" layoutX="383.0" layoutY="52.0" prefHeight="36.0" prefWidth="260.0" promptText="Адрес" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="SignUp_Passport" layoutX="14.0" layoutY="178.0" prefHeight="36.0" prefWidth="260.0" promptText="Номер паспорта" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="Birthdd" layoutX="129.0" layoutY="225.0" prefHeight="34.0" prefWidth="145.0" promptText="ГГГГ-ММ-ДД" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <TextField fx:id="SignUp_Placeofbirth" layoutX="14.0" layoutY="263.0" prefHeight="36.0" prefWidth="260.0" promptText="Место рождения" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <PasswordField fx:id="SignUp_Password" layoutX="383.0" layoutY="178.0" prefHeight="36.0" prefWidth="260.0" promptText="Пароль" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </PasswordField>
+            <TextField fx:id="SignUp_Username" layoutX="383.0" layoutY="135.0" prefHeight="36.0" prefWidth="260.0" promptText="Логин" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <Button fx:id="SignUp_button" layoutX="383.0" layoutY="263.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="260.0" style="-fx-background-color: #D3D3D3#D3D3D3; -fx-border-color: silver;" text="Зарегистрироваться!">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Button>
+            <TextField fx:id="Phonenumber" layoutX="383.0" layoutY="93.0" prefHeight="36.0" prefWidth="260.0" promptText="Контактный номер  +375  ** *** ****" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            <Text layoutX="5.0" layoutY="248.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Дата рождения:" wrappingWidth="123.21044921875">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="14.0" layoutY="159.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Пол:">
+               <font>
+                  <Font name="Times New Roman" size="18.0" />
+               </font>
+            </Text>
+            <Text layoutX="251.0" layoutY="38.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Регистрация">
+               <font>
+                  <Font name="Baskerville" size="33.0" />
+               </font>
+            </Text>
+            <CheckBox fx:id="CheckBoxMale" layoutX="192.0" layoutY="144.0" mnemonicParsing="false" text="Мужской">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </CheckBox>
+            <CheckBox fx:id="CheckBoxFemale" layoutX="67.0" layoutY="143.0" mnemonicParsing="false" text="Женский">
+               <font>
+                  <Font name="Times New Roman" size="14.0" />
+               </font>
+            </CheckBox>
+            <TextField fx:id="Balance_Signup" layoutX="383.0" layoutY="224.0" prefHeight="36.0" prefWidth="260.0" promptText="Баланс" style="-fx-background-color: #FFFFFF#FFFFFF #FFFFFF#FFFFFF; -fx-border-color: silver;">
+               <font>
+                  <Font name="Times New Roman" size="17.0" />
+               </font>
+            </TextField>
+            </children></AnchorPane>
+        <Label contentDisplay="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="45.0" prefWidth="193.0" text="The Banksy Bank" textFill="WHITE">
+            <font>
+                <Font name="Kai Regular" size="24.0" />
+            </font>
+        </Label>
+      <Button fx:id="BackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="112.0" text="Назад">
+         <font>
+            <Font name="Times New Roman" size="18.0" />
+         </font>
+      </Button>
+    </children>
+</AnchorPane>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" style="-fx-background-color: #D2B48C#D2B48C;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Admin_Controllers.AdminsLoggedInController">
+    <children>
+        <AnchorPane layoutY="70.0" prefHeight="323.0" prefWidth="701.0" style="-fx-background-color: #FFFFFF#FFFFFF;">
+            <children>
+                <Button fx:id="ExchangeRatesButton" layoutX="18.0" layoutY="125.0" mnemonicParsing="false" prefHeight="74.0" prefWidth="174.0" text="Курсы Валют">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="loanbutton" layoutX="475.0" layoutY="199.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="174.0" text="Кредиты ">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                </Button>
+                <Button fx:id="Clientslistbutton" layoutX="475.0" layoutY="58.0" mnemonicParsing="false" prefHeight="67.0" prefWidth="174.0" text="Пользователи">
+                    <font>
+                        <Font name="Times New Roman" size="18.0" />
+                    </font>
+                </Button>
+            <Text layoutX="36.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Работа с банком">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Text>
+            <Text layoutX="472.0" layoutY="23.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Работа с клиентами">
+               <font>
+                  <Font name="Times New Roman" size="20.0" />
+               </font>
+            </Text>
+            </children></AnchorPane>
+        <Label contentDisplay="CENTER" layoutX="254.0" layoutY="14.0" prefHeight="45.0" prefWidth="193.0" text="The Banksy Bank" textFill="WHITE">
+            <font>
+                <Font name="Kai Regular" size="24.0" />
+            </font>
+        </Label>
+        <Button fx:id="BackButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="112.0" text="Назад">
+            <font>
+                <Font name="Times New Roman" size="18.0" />
+            </font>
+        </Button>
+    </children>
+</AnchorPane>
