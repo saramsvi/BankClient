@@ -1,5 +1,5 @@
 # BankClient
-System's server for automating the work of a bank with individuals(Client):
+System for automating the work of a bank with individuals(Client):
 
 - Сlient-server design architecture;
 - Able to edit information in the database;
